@@ -12,4 +12,4 @@ docker run -d --name jaeger -e COLLECTOR_ZIPKIN_HTTP_PORT=9411 -p 5775:5775/udp 
 mvn clean spring-boot:run  -DJAEGER_SERVICE_NAME=demo -DJAEGER_AGENT_HOST=localhost -DJAEGER_SAMPLER_PARAM=1
 ```
 
-3. Open the web console of jaeger (http://localhost:16686/search)[http://localhost:16686/search] in a web browser and check the tracings of demo application.
+3. Open the web console of jaeger [http://localhost:16686/search](http://localhost:16686/search) in a web browser and check the tracings of demo application.
