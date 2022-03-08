@@ -1,5 +1,13 @@
 # Fuse Opentracing
 
+## Dependencies
+
+* Java 8 (locked version)
+* Maven 3.8 (or higher)
+* Docker or Podman
+
+## Executing the project
+
 To execute this project and test Jeager integration in fuse, run the following commands:
 
 1. Run an instance of jaeger with docker in you machine (local):
